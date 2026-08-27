@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+.btn-primary {
+  @apply px-5 py-2.5 rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white font-medium transition hover:opacity-90;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+@keyframes blob {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  25% {
+    transform: translate(20px, -50px) scale(1.1);
+  }
+
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+
+  75% {
+    transform: translate(50px, 50px) scale(1.05);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.blob {
+  animation: blob 7s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-card {
+  background: rgba(22, 22, 22, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(38, 38, 38, 0.5);
+}
