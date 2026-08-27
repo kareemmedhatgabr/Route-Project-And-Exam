@@ -1,0 +1,546 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fafbfc;
+    color: #222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+#hero-section {
+    padding: 40px 32px;
+}
+
+.hero-content {
+    float: left;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.hero-image {
+    float: left;
+    width: 35%;
+    height: auto;
+    margin: 5% 0 0 15%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    margin-top: 50px;
+}
+
+.hero-content h1 {
+    font-size: 65px;
+    font-weight: 650;
+    margin-bottom: 24px;
+    text-align: left;
+    color: #1a202c;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+    color: #444;
+    height: 100px;
+}
+
+.hero-buttons {
+    margin-top: 8px;
+}
+
+.hero-buttons button {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    padding: 20px 24px;
+}
+
+.primary-btn {
+    background: #111827;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: #1f2937;
+}
+
+.secondary-btn {
+    background: #fff;
+    color: #222;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.secondary-btn:hover {
+    background: #f3f4f6;
+    border-color: #cbd5e1;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#why-choose-us {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#why-choose-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+#why-choose-us p {
+    font-size: 1.2rem;
+    color: #444;
+    max-width: 800px;
+    margin: auto;
+}
+
+#advantages-section {
+    text-align: center;
+    height: 270px;
+    padding: 40px 0 40px 0;
+}
+
+#advantages-section h3 {
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#advantages-section p {
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.advantage-item1 {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(118, 118, 209, .1);
+    border: 1px solid rgb(122, 122, 243, 0.1);
+    margin: 0 10px 0 10px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.advantage-item2 {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(89, 175, 89, .1);
+    border: 1px solid rgb(89, 175, 89, 0.1);
+    margin: 0 10px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.advantage-item3 {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(134, 50, 212, .1);
+    border: 0.5px solid rgb(134, 50, 212, 0.1);
+    margin: 0 0 0 10px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+
+
+}
+
+.shape-item1-outer {
+    width: 30px;
+    height: 30px;
+    background: #2563eb;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.shape-item1-inner {
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.shape-item2-outer {
+    width: 30px;
+    height: 30px;
+    background: #16a085;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.shape-item2-inner {
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.shape-item3-outer {
+    width: 30px;
+    height: 30px;
+    background: #7b087d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.shape-item3-inner {
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+#gym-sections {
+    height: 450px;
+}
+
+.advantages-of-gym {
+    float: left;
+    width: 45.7%;
+    padding: 0 0 0 0;
+    text-align: left;
+}
+
+.gym-about-img img {
+    float: left;
+    width: 48%;
+    margin: 50px 50px 30px 20px;
+    border-radius: 20px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.advantages-of-gym h2 {
+    font-size: 30px;
+    padding: 10px 0 5px 0;
+    color: #111827;
+}
+
+.advantages-of-gym h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.advantages-of-gym p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.4;
+    text-align: left;
+    width: 100%;
+}
+
+.advantages-of-gym .item {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: #111827 4px solid;
+}
+
+#our-members {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: rgb(195, 214, 220, .1);
+}
+
+#our-members h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+#our-members p {
+    font-size: 1.2rem;
+    width: 80%;
+    color: #444;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.member1 img {
+    float: left;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: -5px 20px 0 20px;
+}
+
+.member2 img {
+    float: left;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: -5px 20px 0 20px;
+}
+
+.member3 img {
+    float: left;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: -5px 20px 0 20px;
+}
+
+.member1,
+.member2,
+.member3 {
+    margin-bottom: 18px;
+}
+
+.member1 p,
+.member2 p,
+.member3 p {
+    text-align: left;
+    margin: 10px 0 10px 0;
+    font-size: 1rem;
+}
+
+.member1 h3,
+.member2 h3,
+.member3 h3 {
+    text-align: left;
+    margin: 10px 0 10px 0;
+    font-size: large;
+}
+
+.member-info {
+    margin-left: 30px;
+    padding: 0 40px 0 0;
+    margin: 0 0 0 50px;
+}
+
+.member-info p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: -10px;
+}
+
+#statistics {
+    text-align: center;
+    padding: 5px -10px;
+    background-color: rgba(168, 173, 219, 0.1);
+    border-radius: 10px;
+}
+
+.statistic-item {
+    float: left;
+    width: calc(100% / 4 - 20px);
+    padding: 20px 10px 20px 10px;
+}
+
+#statistics h3 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+#statistics p {
+    font-size: 0.9rem;
+    color: #5a5151;
+}
+
+#membership-form form {
+    border-radius: 20px;
+    background-color: rgba(190, 194, 235, 0.1);
+    margin: 50px 10%;
+    padding-bottom: 30px;
+}
+
+#membership-form .title {
+    text-align: center;
+    padding: 80px 0 0 0;
+    width: 50%;
+    margin: auto;
+}
+
+#membership-form .title h2 {
+    font-size: 38px;
+    margin-bottom: -5px;
+}
+
+#membership-form .title p {
+    margin-bottom: 40px;
+}
+
+#membership-form label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#membership-form input,
+select,
+textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0 0 0;
+    padding: 5px 0 0 10px;
+    margin: auto;
+    background-color: rgba(190, 194, 235, 0.1);
+}
+
+.form-group .fname {
+    float: left;
+    width: 42%;
+    padding: 30px;
+    margin-right: 5px;
+}
+
+.form-group .lname {
+    float: right;
+    width: 42%;
+    padding: 30px;
+    margin-left: 5px;
+}
+
+/* email */
+
+#membership-form .email {
+    width: 93%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+
+#membership-form .phone {
+    width: 93%;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+
+#membership-form .membership {
+    width: 94%;
+    margin: 0 10px 0 30px;
+    padding-bottom: 10px;
+}
+
+#membership-form .fitness-goal {
+    width: 94%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#membership-form button {
+    width: 94%;
+    margin: 10px 0 20px 30px;
+    padding: 15px;
+    background: black;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#membership-form .end-of-form {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+
+#footer {
+    background-color: #101828;
+    color: #99A191;
+    padding: 20px;
+    overflow: auto;
+}
+
+#footer h2 {
+    font-size: 25px;
+    color: white;
+}
+
+#footer h3 {
+    color: white;
+}
+
+#footer p {
+    line-height: 4.5vh;
+}
+
+
+#footer .info-fitcore {
+    float: left;
+}
+
+#footer .info-fitcore .link2,
+#footer .info-fitcore .link3,
+#footer .foot-links a {
+    text-decoration: none;
+    color: #99A191;
+    padding-left: 20px;
+}
+
+#footer .info-fitcore .link1,
+#footer .links a {
+    text-decoration: none;
+    color: #99A191;
+}
+
+#footer .line {
+    margin: 50px 0;
+    opacity: 0.5;
+}
+
+#footer .links {
+    float: left;
+    padding-left: 80px;
+    line-height: 5vh;
+}
+
+#footer .contact {
+    float: right;
+    padding-left: 80px;
+    width: 15%;
+
+}
+
+#footer .contact .h31, .h32 {
+    margin-top: -20px;
+}
+
+#footer .rights{
+    float: left;
+}
+
+#footer .foot-links{
+    float: right;
+}
