@@ -1,0 +1,142 @@
+@media (max-width: 992px) {
+    #home h1 {
+        font-size: 3.125rem;
+    }
+
+    #what-we-do .title h2,
+    #what-we-do .title p {
+        font-size: 2.25rem;
+    }
+
+    nav .collapse ul li button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 1.875rem;
+    }
+
+    #home p {
+        font-size: .75rem;
+
+    }
+
+    #latest-games .title h1 {
+        font-size: 2.125rem;
+    }
+
+    #latest-games .title p {
+        font-size: 1.5rem;
+    }
+
+    #what-we-do .title h2 {
+        font-size: 28px;
+    }
+
+    #what-we-do .title p {
+        font-size: 1.75rem;
+    }
+
+    #our-team h3 {
+        font-size: 1.1875rem !important;
+    }
+
+    nav .collapse ul li button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #home p {
+        font-size: .75rem;
+
+    }
+}
+
+@media (max-width:576px) {
+    #latest-games .title h2 {
+        font-size: 1.625rem;
+    }
+
+    .title>span,
+    #latest-games .btn-bgchange {
+        font-size: .75rem;
+    }
+
+    #home .bg-deep-dark i {
+        font-size: 16px !important;
+    }
+
+    #home .bg-deep-dark span:last-child {
+        font-size: 16px !important;
+    }
+
+    #what-we-do .title h2,
+    #what-we-do .title p {
+        font-size: 1.3125rem;
+    }
+
+    #our-team h2 {
+        font-size: 2.5rem;
+    }
+
+    #our-team .inner div:last-child {
+        font-size: 1rem !important;
+    }
+
+    #contact .title h2 {
+        font-size: 2.625rem;
+
+    }
+
+    #contact .title p {
+        font-size: 18px;
+
+    }
+
+    #contact .inner .content h3 {
+        font-size: 1.125rem;
+    }
+
+    #contact .inner .form-content h3,
+    #contact .inner .join h3 {
+        font-size: 1.3125rem;
+    }
+
+    #contact .inner p {
+        font-size: .875rem;
+    }
+
+    #contact .inner .form-content label {
+        font-size: .75rem;
+    }
+
+    #contact .inner form input::placeholder,
+    #contact .inner form select,
+    #contact .inner form textarea::placeholder {
+        font-size: .875rem;
+    }
+
+    #footer a {
+        font-size: .875rem;
+    }
+
+    #footer h4,
+    #footer span,
+    nav .navbar-brand span {
+        font-size: 1.125rem;
+    }
+
+    nav .collapse ul li a {
+        font-size: .875rem;
+
+    }
+
+    nav .collapse ul li button {
+        width: 100%;
+    }
+
+}

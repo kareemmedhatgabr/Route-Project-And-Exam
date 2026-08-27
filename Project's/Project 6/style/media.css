@@ -1,0 +1,91 @@
+@media (min-width: 300px) { 
+    
+}
+
+@media (min-width: 576px) {  
+    
+}
+
+@media (min-width: 768px) {  
+    nav .navbar-brand h1{
+        font-size: var(--text-2xl);
+        
+    }
+    nav .navbar-brand p{
+        font-size: var(--text-sm);
+        
+    }
+    .navbar-collapse .icon{
+        font-size: var(--text-xl);
+    }
+    .navbar-collapse img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .main .card .star-tag i{
+        font-size: var(--text-base);
+    }
+    .main .card .star-tag .rate{
+        font-size: var(--text-base);
+    }
+    .main .card .star-tag .review{
+        font-size: var(--text-sm);
+    }
+    .main .card .stats-tag{
+        padding: 1.5rem;
+    }
+    .main .card .stats-tag i{
+        font-size: var(--text-2xl);
+    }
+    .main .card .stats-tag .st-tx{
+        font-size: var(--text-sm);
+    }
+    .main .card .stats-tag .st-num{
+        font-size: var(--text-base);
+    }
+    #recipe-name{
+        font-size: var(--text-4xl);
+    }
+    #recipe-description{
+        font-size: var(--text-lg);
+    }
+
+    #time-warning p.fw-semibold{
+        font-size: var(--text-base);
+    }
+    #time-warning p.fw-semibold+p{
+        font-size: var(--text-sm);
+    }
+    .services-tabs-content .nav .nav-link{
+        font-size: var(--text-base);
+    }
+    .nut-content .icon+span{
+        font-size: var(--text-base);
+    }
+    .nut-content-tx{
+        font-size: var(--text-xl);
+    }
+    #try-another-btn{
+        padding: 0.75rem 1.5rem;
+        font-size: var(--text-base);
+    }
+}
+
+@media (min-width: 992px) { 
+    .main .card .card-container{
+        height: 750px;
+    }
+    .main .card .card-img{
+        height: 100%;
+    }
+    .card-body{
+        padding: 2.5rem;
+    }
+
+
+}
+
+@media (min-width: 1200px) {  
+}
+
+@media (min-width: 1400px) {  }
